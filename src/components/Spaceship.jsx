@@ -7,9 +7,9 @@ class Spaceship extends React.Component {
   render() {
     return (
 
-      <img 
-      className='spaceshipImg'
-      src={ImageSpaceship}
+      <img
+        className='spaceshipImg'
+        src={ImageSpaceship} alt=""
         style={{
           display: this.props.display,
           gridColumnStart: this.props.gridPositionColumn,

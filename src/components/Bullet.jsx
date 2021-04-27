@@ -9,7 +9,7 @@ class Bullet extends React.Component {
         return (
             <img
                 className='bulletImg'
-                src={BulletImg}
+                src={BulletImg} alt=""
                 style={{
                     gridColumnStart: this.props.gridPositionColumn, gridRowStart: this.props.gridPositionRow,
                     display: this.props.display

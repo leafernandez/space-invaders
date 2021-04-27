@@ -8,7 +8,7 @@ class Alien extends React.Component {
     render() {
 
         return (
-            <img className='alienComing' src={ImgAlien}
+            <img className='alienComing' src={ImgAlien} alt=""
                 style={{
                     gridColumnStart: this.props.gridPositionColumn,
                     gridRowStart: this.props.gridPositionRow

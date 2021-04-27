@@ -228,6 +228,8 @@ class App extends React.Component {
                   // commence à 0 et 0*4 égale la tête à toto les amis.
                   // Tout les Aliens ont la même valeur de row car ils sont sur la même ligne et avance à la même allure. 
                   return <Alien key={index} gridPositionColumn={(index + 1) * 4} gridPositionRow={this.state.alienPositionRow} />
+                } else {
+                  return ""
                 }
               })
             }
